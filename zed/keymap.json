@@ -1,0 +1,59 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {}
+  },
+  {
+    "context": "Editor && (vim_mode == visual || vim_mode == normal) && VimControl && !VimWaiting",
+    "bindings": {
+      "space space": "command_palette::Toggle",
+      "space s f": "file_finder::Toggle",
+      "space s t": "tab_switcher::Toggle",
+      "space q": "pane::CloseActiveItem",
+      "ctrl-w": "pane::CloseActiveItem",
+      "ctrl-j": "workspace::ToggleBottomDock",
+      "ctrl-b": "workspace::ToggleLeftDock",
+      "space e": "workspace::ToggleLeftDock"
+      // "j k": ["workspace::SendKeystrokes", "escape"]
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-j": "workspace::ToggleBottomDock",
+      "ctrl-w": "pane::CloseActiveItem",
+      "ctrl-a": "editor::SelectAll",
+      "ctrl-v": "editor::Paste",
+      "ctrl-c": "editor::Copy",
+      "ctrl-x": "editor::Cut",
+      "ctrl-z": "editor::Undo"
+    }
+  },
+  {
+    "context": "vim_mode == insert",
+    "bindings": {
+      "space": null
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-j": "workspace::ToggleBottomDock",
+      "escape escape": "workspace::ToggleBottomDock"
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "escape escape": "workspace::ToggleLeftDock",
+      "space e": "workspace::ToggleLeftDock"
+    }
+  }
+]

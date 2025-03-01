@@ -1,0 +1,10 @@
+[Desktop Entry]
+
+Type=Application
+Version=4.1.3
+Name=Godot .NET 4.1.3
+Path=/mnt/LNX_FILES/Godot/Godot4_1/
+Exec=/mnt/LNX_FILES/Godot/Godot4_1/Godot_v4.1.3_mono.x86_64
+Icon=/mnt/LNX_FILES/Godot/Godot4_1/icon.png
+Terminal=false
+Categories=Development;Game;

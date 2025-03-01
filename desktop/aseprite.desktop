@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Aseprite
+Comment=Animated Sprite Editor & Pixel Art Tool
+Icon=/mnt/LNX_FILES/SteamLibrary/steamapps/common/Aseprite/data/icons/ase.ico
+Exec=/mnt/LNX_FILES/SteamLibrary/steamapps/common/Aseprite/aseprite
+Terminal=false
+Categories=Graphics;

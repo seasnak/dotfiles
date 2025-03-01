@@ -16,6 +16,7 @@ sh ~/Downloads/themes/Tokyonight-GTK-Theme/themes/install.sh --theme purple
 
 echo "Copying Config and Desktop Files"
 # add .desktop files
+mkdir ~/.local/share/applications
 cp desktop/aseprite.desktop ~/.local/share/applications/
 cp desktop/godot4_1.desktop ~/.local/share/applications/
 cp desktop/godot4_3.desktop ~/.local/share/applications/
